@@ -5,98 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coca-Cola: Refresh the World. Make a Difference</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 
-<!-- Navbar -->
-<header class="bg-white border-b border-gray-300">
-    <div class="container mx-auto d-flex justify-content-between align-items-center p-4">
-        <div class="navbar-brand">
-            <img src="The coca-cola company.svg" alt="Coca-Cola Logo">
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="home.html" class="nav-link fw-bold">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="biodata.html" class="nav-link fw-bold">Biodata</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contactus.html" class="nav-link fw-bold">Contact Us</a>
-                    </li>
-                </ul>
+<body>
+    <header class="bg-white border-b border-gray-300">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <div class="logo">
+                <img src="The coca-cola company.svg" alt="Coca-Cola Logo">
             </div>
-        </nav>
-    </div>
-</header>
+            <nav>
+                <ul id="menu" class="hidden lg:flex list-none items-center py-5 font-bold">
+                    <li class="mr-6"><a href="biodata.html">Biodata</a></li>
+                    <li class="mr-6"><a href="contactus.html">Contact Us</a></li>
+                    <li class="mr-6"><a href="Coca-Cola _ 4K Commercial _ Product Video.mp4">Content Free</a></li>
+                    <li class="mr-6"><a href="https://fti.unai.edu/"> FTI UNAI</a></li>
+                    <li><a href="https://unai.edu/">UNAI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <div id="content" class="container mx-auto p-4">
         <div id="title">
             <h1 class="text-4xl font-bold mb-4">My Biodata!</h1>
         </div>
         <div id="sidebar">
-            <img src="image me.jpeg" class="rounded" alt="Image Me" width="350" height="250"> 
-
+            <img src="image me.jpeg" class="w-64 h-64 rounded-full">
         </div>
         <div id="post" class="mt-4">
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span class="font-weight-bold">Name:</span> Hermina Harefa<br>
-                        <span class="font-weight-bold">NIM:</span> 2281072<br>
-                        <span class="font-weight-bold">Major:</span> Teknik Informatika<br>
-                        <span class="font-weight-bold">Address:</span> Jl. Kolonel Masturi<br>
-                    </p>
+            <p class="text-gray-600">
+                <span class="font-bold">Name:</span> Hermina Harefa<br>
+                <span class="font-bold">NIM:</span> 2281072<br>
+                <span class="font-bold">Major:</span> Teknik Informatika<br>
+                <span class="font-bold">Address:</span> Jl. Kolonel Masturi<br>
+            </p>
+        </div>
+    </div>
+
+    <footer class="mt-8 bg-gray-200">
+        <div class="container mx-auto p-8 flex justify-between">
+            <div class="footer1">
+                <div class="flex flex-col items-center">
+                    <img src="The coca-cola company.svg" alt="Coca-Cola Logo" class="w-48 mb-4">
+                    <a href="#" class="text-gray-600">United States | English</a>
+                </div>
+            </div>
+            <div class="footer2 flex space-x-8">
+                <div>
+                    <h2 class="text-lg font-semibold mb-4">About Us</h2>
+                    <ul>
+                        <li><a href="#" class="text-gray-600">Media Center</a></li>
+                        <li><a href="#" class="text-gray-600">Coca‑Cola Foundation</a></li>
+                        <li><a href="#" class="text-gray-600">Investors</a></li>
+                        <li><a href="#" class="text-gray-600">Policies</a></li>
+                        <li><a href="#" class="text-gray-600">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="mt-4">
+                        <li><a href="#" class="text-gray-600">FAQ</a></li>
+                        <li><a href="#" class="text-gray-600">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-600">International</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="mt-4">
+                        <li><a href="#" class="text-gray-600">California Notice at Collection</a></li>
+                        <li><a href="#" class="text-gray-600">Do Not Sell My Personal Information</a></li>
+                        <li><a href="#" class="text-gray-600">Terms of Use</a></li>
+                        <li><a href="#" class="text-gray-600">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-600">Cookies Settings</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-
-    <footer>
-        <div class="footer1">
-            <div>
-                <img src="The coca-cola company.svg">
-                <a href="#">United States | English</a>
-            </div>
-            <div>
-                <h2>About Us</h2>
-                <ul>
-                    <li><a href="#">Media Center</a></li>
-                    <li><a href="#">Coca‑Cola Foundation </a></li>
-                    <li><a href="#">Investors</a></li>
-                    <li><a href="#">Policies</a></li>
-                    <li><a href="#">Careers </a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer2">
-            <div>
-                <h2>NEED HELP?</h2>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">International</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#">California Notice at Collection</a></li>
-                    <li><a href="#">Do Not Sell My Personal Information</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Cookies Settings</a></li>
-                </ul>
-            </div>
-        </div>
     </footer>
-    <div class="copyright">
-        <p>© 2023 The Coca‑Cola Company. All rights reserved.</p>
-    </div>
 
+    <div class="copyright container mx-auto p-8 text-center">
+        <p class="text-gray-600">&copy; 2023 The Coca‑Cola Company. All rights reserved.</p>
+    </div>
 </body>
+
 </html>
