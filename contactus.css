@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .form-check-input {
+    margin-top: 0.25rem;
+  }
+  
+  .form-check-label {
+    margin-left: 0.25rem;
+  }
+  
+  #contactForm {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  

@@ -1,135 +1,97 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #fff;
+  }
+  
+  header {
+    background-color: white;
     border-bottom: 1px solid #ccc;
     padding: 1rem 0;
-}
-
-.navbar-brand img {
+  }
+  
+  .navbar-brand img {
     max-height: 50px;
-}
-
-.navbar-nav {
+  }
+  
+  .navbar-nav {
     display: flex;
     gap: 1rem;
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     text-decoration: none;
     color: #000;
     font-weight: bold;
-}
-
-.container.mx-auto {
+  }
+  
+  .container.mx-auto {
     padding: 2rem;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-}
-
-h4 {
+  }
+  
+  h4 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 1rem;
-}
-
-p {
+  }
+  
+  p {
     line-height: 1.5;
     color: #555;
-}
-
-.text-4xl {
+  }
+  
+  .text-4xl {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
-}
-
-.img-fluid {
+  }
+  
+  .img-fluid {
     max-width: 100%;
     height: auto;
     margin-bottom: 1rem;
-}
-
-.text-2xl {
+  }
+  
+  .text-2xl {
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
-}
-
-.row {
+  }
+  
+  .row {
     margin-top: 1.5rem;
-}
-
-.card {
+  }
+  
+  .card {
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 1.5rem; /* Added margin to separate cards */
-}
-
-.card-img-top {
+  }
+  
+  .card-img-top {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-}
-
-.card-title {
+  }
+  
+  .card-title {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-}
-
-.card-text {
-    color: #555;
-}
-
-footer {
+  }
+  
+  .card-text {
+    color: #a92828;
+  }
+  
+  footer {
+    /* removed display: none; */
     margin-top: 20px;
     padding: 20px 0;
-    color: #6c757d;
-}
+    background-color: #ccc;
+  }
+  
 
-.footer1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer1 img {
-    max-width: 100%;
-    height: auto;
-}
-
-.footer1 a {
-    text-decoration: none;
-    color: #000;
-}
-
-.footer2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.footer2 h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.footer2 ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer2 li {
-    margin-bottom: 5px;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 20px;
-    color: #6c757d;
-}
+  
